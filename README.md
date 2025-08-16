@@ -23,7 +23,12 @@
 git clone https://github.com/yourusername/netking.git
 cd netking
 ```
+- Install **aircrack-ng** (provides `airmon-ng`, `aireplay-ng`, etc.):
 
+```bash
+sudo apt update
+sudo apt install aircrack-ng
+```
 2. Ensure Python 3.x is installed.
 3. Install required dependencies (if any):
 
@@ -36,6 +41,11 @@ pip install -r requirements.txt
 ```bash
 chmod +x netking.py
 ```
+
+```bash
+chmod +x modules/crack.sh
+```
+
 
 ---
 
